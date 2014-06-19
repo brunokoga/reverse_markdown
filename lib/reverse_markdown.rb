@@ -28,6 +28,7 @@ require 'reverse_markdown/converters/strong'
 require 'reverse_markdown/converters/table'
 require 'reverse_markdown/converters/td'
 require 'reverse_markdown/converters/text'
+require 'reverse_markdown/converters/tfoot'
 require 'reverse_markdown/converters/thead'
 require 'reverse_markdown/converters/tr'
 
