@@ -1,11 +1,11 @@
 module ReverseMarkdown
   module Converters
-    class Caption < Base
+    class Thead < Base
       def convert(node)
         content = treat_children(node)
-          "[#{content}]"
+          "\n#{content}"
       end
     end
-    register :caption, Caption.new
+    register :thead, Thead.new
   end
 end
